@@ -1,0 +1,52 @@
+.formulario {
+  background: #fff;
+  box-shadow: -5.49889px 5.49889px 3.14222px 0px rgba(0, 0, 0, 0.25);
+
+  width: fit-content;
+  height: fit-content;
+  align-items: center;
+  padding: 30px;
+}
+
+#formLogin {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+input {
+  appearance: none;
+}
+
+label {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+#crmLogin {
+  width: 230px;
+  height: 40px;
+  border-radius: 7px;
+  border: 2px solid #a4a4a4;
+  background: #f8f8f8;
+  margin: 5px 0px 50px 0px;
+  padding: 0px 0px 0px 10px;
+}
+
+.inputText {
+  width: 230px;
+  height: 40px;
+  border-radius: 7px;
+  border: 2px solid #a4a4a4;
+  background: #f8f8f8;
+  margin: 5px 0px 50px 0px;
+  padding: 0px 0px 0px 10px;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 30, 255);
+}

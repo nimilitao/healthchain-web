@@ -1,0 +1,43 @@
+
+.custom-button{
+
+}
+
+.theMain {
+  padding: 0px 10%;
+}
+
+.theMain .Enviar {
+  width: fit-content;
+  height: fit-content;
+
+  padding: 15px 30px;
+  margin-top: 10px;
+
+  background-color: rgb(31, 125, 240);
+  border: 2px solid rgb(0, 0, 70);
+  border-radius: 7px;
+  outline: none;
+  border: none;
+
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+
+  background-size: 120%  auto;
+  background-image: linear-gradient(315deg, #bdc3c7 0%, #020057 75%);
+}
+
+.Enviar:hover {
+  background-position: right center;
+}
+
+.Enviar:active {
+  top: 2px;
+}

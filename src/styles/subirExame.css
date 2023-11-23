@@ -1,0 +1,46 @@
+.subirExame {
+  background-image: url('../assets/background.svg');
+  background-size: cover;
+
+  width: 100%;
+}
+
+.subirExame h1 {
+  color: #000000;
+  font-size: 64px;
+  padding-bottom: 100px;
+}
+
+.subirExame #logo {
+  width: 200px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.subirExame #container {
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+}
+
+#mockup {
+  width: 100%;
+  height: 100%;
+}
+
+.Home-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media (max-width: 900px) {
+  #container {
+    flex-wrap: wrap;
+  }
+}

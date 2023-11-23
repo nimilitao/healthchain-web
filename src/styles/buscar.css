@@ -1,0 +1,90 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+#logo {
+  width: 100px; /* Largura da imagem, ajuste conforme necessário */
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-right: 10%;
+}
+
+.links {
+  margin-right: 20px; /* Espaçamento entre os links, ajuste conforme necessário */
+  color: #000000; /* Cor do texto dos links, ajuste conforme necessário */
+  text-decoration: none;
+}
+
+.links:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre os links */
+}
+
+.subHeader {
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0px 10%;
+  align-items: center;
+}
+
+.txtBuscar {
+  width: 200px;
+  height: 30px;
+  background-color: #efefef;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.pacientesh1 {
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+  color: #020057;
+}
+
+.cardPacientes{
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1rem 2.5%;
+  align-items: center;
+  border: 1px solid #7b7b7b;
+  border-radius: 10px;
+}
+
+main{
+  margin-top: 20px;
+}
+
+.seeUser{
+  color: #020057;
+  font-size: 15px;
+
+  width: fit-content;
+  height: fit-content;
+  padding: 10px 20px;
+
+  border: 1.5px solid #020057;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.seeUser:hover{
+  cursor: pointer;
+  background-color: #3d3aff2e;
+}

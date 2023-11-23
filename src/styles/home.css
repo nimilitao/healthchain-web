@@ -1,0 +1,56 @@
+.Home {
+  background-image: url('../assets/background.svg');
+  background-size: cover;
+
+  width: 100%;
+}
+
+.Home #h1 {
+  color: #000000;
+  font-size: 48px;
+  padding-bottom: 100px;
+}
+
+.Home #logo {
+  width: 200px;
+  height: 60px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.Home #container {
+  display: flex;
+  flex-direction: row;
+  padding: 100px;
+}
+
+#mockup {
+  width: 100%;
+  height: 100%;
+}
+
+.Home-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@media (max-width: 900px) {
+  #container {
+    flex-wrap: wrap;
+  }
+
+  .Home h1 {
+    font-size: 30px;
+    padding-bottom: 100px;
+  }
+
+  #mockup {
+    width: 90%;
+    height: 90%;
+  }
+}
